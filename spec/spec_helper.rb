@@ -10,7 +10,7 @@ RSpec.configure do |config|
   # config here
 end
 
-
+def key_for_min_value(name_hash)
 lowest_key = nil 
   lowest_value = nil 
   name_hash.each do |key, value|
